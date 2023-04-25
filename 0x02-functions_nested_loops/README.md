@@ -1,1 +1,1 @@
-Functions nd nested loops C basics
+0x02. C - Functions, nested loops
