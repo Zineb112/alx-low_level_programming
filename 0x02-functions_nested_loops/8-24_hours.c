@@ -1,8 +1,8 @@
 #include"main.h"
 
 /**
- * jack_baue - prints every minute of jack baue
- */
+ * jack_bauer -> prints 24 h
+*/
 
 void jack_bauer(void)
 {
