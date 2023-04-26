@@ -1,5 +1,13 @@
 #include "main.h"
 
+/**
+ * positive_or_negative - main block
+ * Description: Get a random number and print the number
+ * and if it is positive, negative, or zero
+ * @i: output.
+ * Return: nothing
+ */
+
 void positive_or_negative(int i)
 {
 	if (i > 0)
