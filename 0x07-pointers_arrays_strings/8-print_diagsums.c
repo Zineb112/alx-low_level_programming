@@ -26,9 +26,8 @@ void print_diagsums(int *a, int size)
 	while (x <= (size * size) - size)
 	{
 		x = size - 1;
+		sum_2 = sum_2 + a[x];
 		x = x + size - 1;
 	}
-
-	sum_2 = sum_2 + a[x];
 	printf("%d, %d\n", sum_1, sum_2);
 }
