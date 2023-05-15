@@ -17,14 +17,15 @@ char *argstostr(int ac, char **av)
 	{
 		return (0);
 	}
-
 	i = 0;
 	while (i < ac)
 	{
 		x = 0;
 		while (av[i][x])
+		{
 			z++;
 			x++;
+		}
 		z++;
 		i++;
 	}
@@ -33,7 +34,6 @@ char *argstostr(int ac, char **av)
 	{
 		return (0);
 	}
-
 	i = 0;
 	while (i < ac)
 	{
