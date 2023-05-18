@@ -10,25 +10,25 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	void *x;
 	char *y;
-	unsigned int a;
+	unsigned int index;
 
 	if (nmemb == 0 || size == 0)
 	{
-		return (0);
+		return (NULL);
 	}
 
 	x = malloc(size * nmemb);
 
 	if (x == NULL)
 	{
-		return (0);
+		return (NULL);
 	}
 
 	y = x;
 
-	for (a = 0; a < (size * nmemb); a++)
+	for (index = 0; index < (size * nmemb); index++)
 	{
-		y[a] = '0';
+		y[index] = '\0';
 	}
 
 	return (x);
